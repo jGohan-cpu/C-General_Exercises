@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+* function-main
+* description - prints string
+*/
+
 int main(void)
 {
 
