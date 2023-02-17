@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
-* function-main
-* description - prints string
+* main - Entry point
+*
+* Description - prints string
+*
+* Return: Always 0 (Success)
 */
 
 int main(void)
