@@ -3,7 +3,7 @@
 /**
  * main - Prints reversed alphabet
  *
- * Return 0 to indicate successful execution
+ * Return: 0 to indicate successful execution
  */
 
 
