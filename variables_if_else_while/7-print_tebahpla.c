@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-int main (void)
+/**
+ * main -
+ *
+ *
+ */
+
+
+int main(void)
 {
 
 	char i;
@@ -12,6 +19,6 @@ int main (void)
 	
 	putchar('\n');
 
-	return (0);
+	return(0);
 
 }	
