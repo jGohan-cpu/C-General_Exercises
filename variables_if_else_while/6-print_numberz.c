@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *Main - Prints 0 to 9
+ *main - entry point
  *
  *Return: Always 0 (Success)
  */
