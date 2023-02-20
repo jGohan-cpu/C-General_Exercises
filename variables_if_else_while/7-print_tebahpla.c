@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - Prints reversed alphabet
+ * main - Prints reversed alphabet
  *
- * Description - Always 0 (Success)
+ * Return - Always 0 (Success)
  */
 
 
@@ -16,7 +16,7 @@ int main(void)
 	{
 	putchar(i);
 	}
-	
+
 	putchar('\n');
 
 	return(0);
