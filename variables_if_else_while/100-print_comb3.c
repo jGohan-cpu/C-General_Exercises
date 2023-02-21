@@ -15,18 +15,18 @@ int main(void)
 	{
 		for (j = '0'; j <= '9'; j++)
 		{
-			if(j > i)
+			if (j > i)
 			{
 			putchar(i);
 			putchar(j);
-			if(i != '8' || j != '9' )
-			{	
+			if (i != '8' || j != '9' )
+			{
 			putchar(',');
 			putchar(' ');
 			}
 		}
 	}
-	}	
+	}
 	putchar('\n');
 
 	return (0);
