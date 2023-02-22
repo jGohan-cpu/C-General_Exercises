@@ -6,7 +6,7 @@
  *
  * @c: Receive integer c
  *
- * c: Returns integer
+ * Return: Returns integer
  */
 
 int _abs(int c)
