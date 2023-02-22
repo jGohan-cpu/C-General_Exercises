@@ -4,6 +4,8 @@
 /**
 * _islower - checks if character is lower case
 *
+* @c:  Receives variable
+*
 * Return: Always 0 (Success)
 */
 
