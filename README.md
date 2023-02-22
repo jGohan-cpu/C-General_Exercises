@@ -2,4 +2,6 @@
 
 [hello_world](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/hello_world): First repository of C language.
 
-[variables_if_else_while](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/variables_if_else_while): Programs using if statements and for loops.
+[variables_if_else_while](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/variables_if_else_while): Programs using if statements and while loops.
+
+[functions_nested_loops](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/functions_nested_loops): Introduction for loops and functions.
