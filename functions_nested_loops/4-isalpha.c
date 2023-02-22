@@ -2,7 +2,11 @@
 #include "main.h"
 
 /**
+* isalpha - checks lowercase and uppercase
 *
+* @c: variable received
+*
+* Return: Always 0 (Success)
 */
 
 int _isalpha(int c)
