@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* isalpha - checks lowercase and uppercase
+* _isalpha - checks lowercase and uppercase
 *
 * @c: variable received
 *
@@ -21,6 +21,6 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	
+
 	return(0);
 }
