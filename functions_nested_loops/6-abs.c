@@ -6,13 +6,13 @@
  *
  * @c: Receive integer c
  *
- * int: Returns integer
+ * c: Returns integer
  */
 
 int _abs(int c)
 {
 
-	if(c < 0)
+	if (c < 0)
 	{
 	c = -1 * c;
 	}
