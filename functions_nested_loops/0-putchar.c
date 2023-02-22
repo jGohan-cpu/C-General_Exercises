@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-/*
+ /**
  * main - Entry point
  *
- * Return: ALways Success (0)
+ * Description: prints _putchar
+ *
+ *Return: Always 0 (Success)
  */
 
 int main(void)
