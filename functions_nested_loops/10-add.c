@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * int add - Adds number
+ * add - Adds number
  * @a: First vlaue
  * @b: Second value
- * @c: Returns added number
+ * Return: The added value
  */
 
 int add(int a, int b)
