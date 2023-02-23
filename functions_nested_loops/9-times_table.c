@@ -17,8 +17,31 @@ void times_table(void)
 		for(b = 0; b <= 9; b++)
 		{
 			int c = a * b;
+			
+			if(c > 9)
+			{
+				putchar((c / 10) + '0');
+				putchar((c % 10) + '0');
 
-			printf("%d, ", c); 
+				if(b != 9)
+				{
+				putchar(',');
+				putchar(' ');
+				}
+			}
+
+			else
+			{
+			putchar(c + '0');
+
+			if(b != 9)
+			{
+			putchar(',');
+			putchar(' ');
+			putchar(' ');
+			}
+			}	
+			
 		}
 		putchar('\n');
 	}
