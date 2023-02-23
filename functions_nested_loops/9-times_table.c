@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * time_table - prints time table
- * Return: Void
+ * times_table - prints time table
  */
 
 void times_table(void)
