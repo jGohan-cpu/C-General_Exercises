@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /**
- * int add -
- * @a:
- * @b:
- * @c:
+ * int add - Adds number
+ * @a: First vlaue
+ * @b: Second value
+ * @c: Returns added number
  */
 
 int add(int a, int b)
 {
 	int c = a + b;
 
-	return(c);
+	return (c);
 }
