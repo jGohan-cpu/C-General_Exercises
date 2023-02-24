@@ -19,3 +19,7 @@
 [8-24_hours.c](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/blob/master/functions_nested_loops/8-24_hours.c): Function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
 [9-times_table.c](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/blob/master/functions_nested_loops/9-times_table.c): Function that prints the 9 times table, starting with 0.
+
+[10-add.c](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/blob/master/functions_nested_loops/10-add.c): Function that adds two integers and returns the result.
+
+[11-print_to_98.c](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/blob/master/functions_nested_loops/11-print_to_98.c): Function that prints all natural numbers from n to 98, followed by a new line.
