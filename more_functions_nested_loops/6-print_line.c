@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- *print_lines - print lines
- *@a: receives integer
+ *print_line - print lines
+ *@n: receives integer
  */
 
 void print_line(int n)
 {
-	int i; 
+	int i;
 
 	if (n == 0)
 	{
