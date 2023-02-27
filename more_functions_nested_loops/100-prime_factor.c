@@ -21,7 +21,7 @@ int main(void)
 			j = num / i;
 		}
 	}
-	
+
 	printf("%ld\n", j);
 
 	return (0);
