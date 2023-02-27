@@ -23,10 +23,10 @@ void print_diagonal(int n)
 		{
 			for (b = 0; b < a; b++)
 			{
-				putchar(' ');
+				putchar(' ' + '0');
 			}
 
-				putchar(92);
+				putchar('#' + '0');
 				putchar('\n');
 
 		}
