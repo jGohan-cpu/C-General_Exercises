@@ -3,8 +3,8 @@
 #include <string.h>
 
 /**
- * puts_half - half of string
- * @str: receives 
+ *puts_half - half of string
+ *@str: receives
  */
 
 void puts_half(char *str)
