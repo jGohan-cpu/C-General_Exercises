@@ -2,28 +2,28 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
- *
- *
+ *_strncat - conactenates two strings
+ *@dest: receives pointer
+ *@src: receives pointer
+ *@n: receives integer
+ *Return: character
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-    if ((src == NULL) && (dest == NULL)) 
-    {
-        return NULL;
-    }
+	int i;
+	int j;
 
+	for (i = 0; dest[i] != '\0';)
+	{
+		i++;
+	}
 
-    for (; dest != '\0'; dest++);
+	for (j = 0; j < n && src[j] != '\0'; j++)
+	{
+		dest[i + j] = src[j];
+	}
 
-    for (int i = 0; (i < n) && (s2 != '\0'); i++, dest++, src++) 
-    {
-        dest =src;
-    }
-
-    *dest = '\0';
-    return (dest);
+	dest[i + j] = '\0';
+	return (dest);
 }
