@@ -3,7 +3,7 @@
 
 /**
  * string_toupper - changes lowercase
- * @n: receives pointer
+ * @str: receives pointer
  * Return: character
  */
 
