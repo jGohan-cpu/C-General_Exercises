@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * reverse_array - reverses array
+ * @a: receies character
+ * @n: receives character
  */
 
 void reverse_array(int *a, int n)
@@ -16,6 +16,6 @@ void reverse_array(int *a, int n)
 	{
 	temp = a[i];
 	a[i] = a[n - i - 1];
-	a[n - i -1] = temp;
+	a[n - i - 1] = temp;
 	}
 }
