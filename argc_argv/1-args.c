@@ -2,9 +2,9 @@
 
 /**
  *main - Entry point
- *
- *
- *
+ *@argc: argument counter
+ *@argv: argument vector
+ *Return: integer
  */
 
 int main(int argc, char __attribute__((unused)) *argv[])
