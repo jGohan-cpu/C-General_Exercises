@@ -4,10 +4,14 @@
 
 [hello_world](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/hello_world): First repository of C language.
 
+[makefiles](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/makefiles): Introduction of Makefiles.
+
 [more_functions_nested_loops](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/more_functions_nested_loops): Programs implementing nested loops.
 
 [pointers_arrays_strings](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/pointers_arrays_strings): First look into pointers, arrays and strings.
 
 [recursion](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/recursion): C programs using implementing recursions.
+
+[static_libraries](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/static_libraries): Introduction of Static Libraries.
 
 [variables_if_else_while](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/variables_if_else_while): Programs using if statements and while loops.
