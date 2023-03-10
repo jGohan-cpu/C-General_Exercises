@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
 * *main - Entry point
 *@argc: argument counter
@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
 	int i, sum;
 
-	if (argc != 3)
+	if (argc == 1)
 	{
 	printf("Error\n");
 	return (1);
@@ -20,9 +20,9 @@ int main(int argc, char *argv[])
 
 	else
 	{
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
-	sum += argv[i];
+	sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	}
