@@ -22,11 +22,11 @@ char *_strdup(char *str)
 
 	len = strlen(str) + 1;
 	dup = malloc(len);
-	
+
 	if (dup == NULL)
-        {
-        return (NULL);
-        }
+	{
+	return (NULL);
+	}
 
 
 	for (i = 0; i < len ; i++)
