@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *create array - creates array
+ *create_array - creates array
  *@size: size
  *@c: initializer
  *Return: character
@@ -16,6 +16,11 @@ char *create_array(unsigned int size, char c)
 	char *arr = malloc(size * sizeof(char));
 
 	if (size == 0)
+	{
+	return (NULL);
+	}
+
+	if (arr == NULL)
 	{
 	return (NULL);
 	}
