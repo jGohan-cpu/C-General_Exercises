@@ -13,37 +13,36 @@
 int **alloc_grid(int width, int height)
 {
 
+	int **dup;
+	int hgt_index, wid_index;
+
 	if (width <= 0 || height <= 0)
-	{
-		return (NULL);
-	}
-
-	int i, j;
-	int **grid = (int **) malloc(height * sizeof(int *));
-
-	if (grid == NULL)
-	{
 	return (NULL);
-	}
 
-	if (width <= 0 || height <= 0)
-	{
-		return (NULL);
-	}
+	dup = malloc(sizeof(int *) * height);
 
-	for (i = 0; i < height; i++)
+	if (dup == NULL)
+	return (NULL);
+
+	for (hgt_index = 0; hgt_index < height; hgt_index++)
 	{
-	grid[i] = (int *) calloc(width, sizeof(int));
-	if (grid[i] == NULL)
+	dup[hgt_index] = malloc(sizeof(int) * width);
+
+	if (dup[hgt_index] == NULL)
 	{
-	for (j = 0; j < i; j++)
-	{
-	free(grid[j]);
-	}
-	free(grid);
+	for (; hgt_index >= 0; hgt_index--)
+	free(dup[hgt_index]);
+
+	free(dup);
 	return (NULL);
 	}
 	}
 
-	return (grid);
+	for (hgt_index = 0; hgt_index < height; hgt_index++)
+	{
+	for (wid_index = 0; wid_index < width; wid_index++)
+	dup[hgt_index][wid_index] = 0;
+	}
+
+	return (dup);
 }
