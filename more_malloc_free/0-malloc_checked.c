@@ -6,13 +6,14 @@
 /**
  *malloc_checked- allocates memory
  *@b: receives b
+ *Return: pointer malloc
  */
 
 void *malloc_checked(unsigned int b)
 {
 	void *ptr = malloc(b);
 
-	if (ptr == NULL) 
+	if (ptr == NULL)
 	{
 	exit(98);
 	}
