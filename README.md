@@ -8,6 +8,8 @@
 
 [makefiles](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/makefiles): Introduction of Makefiles.
 
+[malloc_free](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/malloc_free): Introduction to malloc.
+
 [more_functions_nested_loops](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/more_functions_nested_loops): Programs implementing nested loops.
 
 [pointers_arrays_strings](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/pointers_arrays_strings): First look into pointers, arrays and strings.
