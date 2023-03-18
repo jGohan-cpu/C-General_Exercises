@@ -1,56 +1,53 @@
-#include "main.h"
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
+#include "main.h"
 
 /**
- *string_nconcat - 
- *@s1: first string
- *@s2: second string
- *@n: 
- *
+ * string_nconcat - concenates string
+ * @s1: pointer
+ * @s2: pointer
+ * @n: unsigned int
+ * Return: conc
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *ptr;
-	unsigned int i, j; 
-	unsigned int len1;
-	unsigned int len2;
-	len1 = strlen(s1);
-	len2 = strlen(s2);
+	char *conc;
+	unsigned int len1, len2, i, j;
 
 	if (s1 == NULL)
 	{
 		s1 = "";
 	}
+
 	if (s2 == NULL)
 	{
 		s2 = "";
 	}
 
-	ptr = malloc(len1 + (n * sizeof(char) + 1));
+	for (len1 = 0; s1[len1]; len1++)
+	for (len2 = 0; s2[len2]; len2++)
 
-		if (ptr == NULL)
-		{
-			return (NULL);
-		}
+	if (n >= len2)
+	{
+		n = len2;
+	}
 
-		for (i = 0; i < len1; i++)
-		{
-			ptr[i] = s1[i];
-		}
+	conc = malloc(sizeof(char) * (len1 + n + 1));
 
-		if (n >= len2)
-		{
-			n = len2; 
-		}
+	if (conc == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; s1[i]; i++)
+	{
+		conc[i] = s1[i];
+	}
+	for (j = 0; j < n; j++)
+	{
+		conc[i + j] = s2[j];
+	}
 
-		for(j = 0; j < n; j++)
-		{
-		ptr[i + j] = s2[j];
-		}
-
-		ptr[i + j] = '\0';
-
-		return (ptr);
+	conc[i + j] = '\0';
+	return (conc);
 }
