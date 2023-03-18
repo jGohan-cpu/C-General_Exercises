@@ -1,4 +1,4 @@
-# Holberton
+# Holbertonschool-low_level_programming / more_malloc_free
 
 [0-malloc_checked.c](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/blob/master/more_malloc_free/0-malloc_checked.c): A function that uses malloc to allocate memory, and checks for errors.
 
