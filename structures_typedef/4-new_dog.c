@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  *new_dog - initializes a variable of type
- *@d: pointer
+ *@age: age
  *@name: name
  *@owner: owner
  *Return: dog_t
