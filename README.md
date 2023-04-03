@@ -22,4 +22,8 @@
 
 [static_libraries](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/static_libraries): Introduction of Static Libraries.
 
+[structures_typedef](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/structures_typedef): Introduction of Structures.
+
 [variables_if_else_while](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/variables_if_else_while): Programs using if statements and while loops.
+
+[variadic_functions](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/variadic_functions): Introduction of variadic functions.
