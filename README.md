@@ -22,6 +22,8 @@
 
 [recursion](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/recursion): C programs using implementing recursions.
 
+[singly_listed_links](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/singly_linked_lists): Introduction to singly listed links.
+
 [static_libraries](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/static_libraries): Introduction of Static Libraries.
 
 [structures_typedef](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/structures_typedef): Introduction of Structures.
