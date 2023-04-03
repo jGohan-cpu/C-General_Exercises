@@ -4,6 +4,8 @@
 
 [functions_nested_loops](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/functions_nested_loops): Introduction for loops and functions.
 
+[function_pointers](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/function_pointers): Introduction of function pointers.
+
 [hello_world](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/hello_world): First repository of C language.
 
 [makefiles](https://github.com/jGohan-cpu/holbertonschool-low_level_programming/tree/master/makefiles): Introduction of Makefiles.
