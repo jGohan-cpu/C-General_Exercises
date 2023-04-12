@@ -3,7 +3,6 @@
 
 /**
  * free_list - free list_t list
- *
  * @head: pointer to list_t
  */
 

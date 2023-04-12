@@ -4,10 +4,8 @@
 
 /**
  * add_node - creating new node
- *
  * @head: double pointer
  * @str: pointer to string
- *
  * Return: the address of the new element or NULL if failed
  */
 
