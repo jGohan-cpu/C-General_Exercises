@@ -14,14 +14,21 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *buf = malloc(sizeof(char) * letters);
 
 	if (buf == NULL)
+	{
 		return (0);
+	}
+	
 	if (filename == NULL)
+	{
 		return (0);
+	}
 
 	kip = open(filename, O_RDONLY);
 
 	if (kip == -1)
+	{
 		return (0);
+	}
 
 	bytes = read(kip, buf, letters);
 
