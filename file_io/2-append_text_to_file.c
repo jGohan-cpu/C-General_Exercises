@@ -9,7 +9,7 @@
 
 int append_text_to_file(const char *filename, char *text_content)
 {
-	int kip, len;
+	int kip, len = = strlen(text_content);
 
 	kip = open(filename, O_APPEND | O_RDWR);
 
@@ -25,7 +25,6 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (text_content != NULL)
 	{
-		len = strlen(text_content);
 		write(kip, text_content, len);
 		close(kip);
 	}
