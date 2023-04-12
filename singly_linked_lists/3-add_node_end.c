@@ -12,32 +12,32 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *node, *temp;
+	list_t *n, *temp;
 	unsigned int a;
 
-	node = malloc(sizeof(list_t));
+	n = malloc(sizeof(list_t));
 
-	if (node == NULL)
+	if (n == NULL)
 	{
 		return (NULL);
 	}
 
-	node->str = strdup(str);
+	n->str = strdup(str);
 
-	if (node->str == NULL)
+	if (n->str == NULL)
 	{
-		free(node);
+		free(n);
 		return (NULL);
 	}
 		for (a = 0; str[a] != '\0'; a++)
 		{
 		}
-	node->len = a;
-	node->next = NULL;
+	n->len = a;
+	n->next = NULL;
 
 		if (*head == NULL)
 		{
-			*head = node;
+			*head = n;
 		}
 		else
 		{
@@ -46,7 +46,7 @@ list_t *add_node_end(list_t **head, const char *str)
 			{
 				temp = temp->next;
 			}
-			temp->next = node;
+			temp->next = n;
 		}
-	return (node);
+	return (n);
 }
