@@ -28,6 +28,5 @@ The repository includes the following projects:
 - [2-add_node](./2-add_node): Add a new node at the beginning of a singly linked list.
 - [3-add_node_end](./3-add_node_end): Add a new node at the end of a singly linked list.
 - [4-free_list](./4-free_list): Free a singly linked list.
-- [100-first](./100-first): Print a message before the main function is executed.
 
 Each project directory contains a README.md file with more detailed explanations and requirements for each task.
