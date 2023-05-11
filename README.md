@@ -7,7 +7,6 @@ Welcome to the Holberton School Low Level Programming repository! This repositor
 - [Description](#description)
 - [Requirements](#requirements)
 - [Projects](#projects)
-- [Author](#author)
 
 ## Description
 
